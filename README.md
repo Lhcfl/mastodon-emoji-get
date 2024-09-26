@@ -1,5 +1,9 @@
 # Mastodon emoji getter
 
+Before use it, run `pnpm i` to install the dependencies.
+
+You will need node.js and pnpm to run this script
+
 ```
 SCRIPT TO GET CUSTOM EMOJIS FROM A MASTODON INSTANCE
 =========================
