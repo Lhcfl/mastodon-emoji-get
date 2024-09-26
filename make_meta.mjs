@@ -26,6 +26,7 @@ for (const fileName of files) {
   const ext = path.extname(fileName).toLowerCase();
   if (!ALLOWED_EXT.includes(ext)) {
     console.log("Skip", fileName, "because its ext is not allowed");
+    continue;
   }
   const emojiName = (PERFIX ? PERFIX + "_" : "") + path.basename(fileName, ext).replaceAll(".", "_");
   emojis.push({
